@@ -1,0 +1,40 @@
+{
+  "name": "agent-service-agreements",
+  "version": "0.1.0",
+  "description": "Machine-readable service contracts and quality verification for autonomous agent commerce — TypeScript reference implementation",
+  "author": "AB Support LLC",
+  "license": "Apache-2.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "node --test dist/tests/asa.test.js",
+    "prepublishOnly": "npm run build"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "agent-service-agreements",
+    "asa",
+    "service-contract",
+    "quality-verification",
+    "escrow",
+    "slo",
+    "negotiation",
+    "agent-commerce",
+    "ai-agent",
+    "chain-of-consciousness"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AB-Support/agent-service-agreements"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.4.0"
+  }
+}
